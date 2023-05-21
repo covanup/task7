@@ -23,7 +23,6 @@ final class ViewController: UIViewController {
         view.addSubview(lightImageView)
         view.addSubview(darkImageView)
         view.clipsToBounds = true
-        view.backgroundColor = .green
         return view
     }()
     
